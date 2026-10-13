@@ -1,0 +1,14 @@
+Original Input Baseline Results
+
+Condition: low_blur
+Images: 1800
+PSNR: 10.738910 dB
+SSIM: 0.313874
+LPIPS: 0.412786
+
+Condition: low_sharp
+Images: 1800
+PSNR: 10.721686 dB
+SSIM: 0.357869
+LPIPS: 0.245753
+

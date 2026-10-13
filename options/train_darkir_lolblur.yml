@@ -1,0 +1,50 @@
+# Official DarkIR-m trained on three LOL-Blur degradation categories.
+dataset:
+  # Place the separately obtained training folders at this repository-relative path.
+  root: ./data/datasets/LOLBlur/train
+  target_dir: high_sharp_scaled
+  seed: 2025
+  classes:
+    - id: 1
+      name: low_light_blur
+      input_dir: low_blur
+      samples: 1667
+      train_samples: 1500
+      validation_samples: 167
+    - id: 2
+      name: low_light_blur_noise
+      input_dir: low_blur_noise
+      samples: 1667
+      train_samples: 1500
+      validation_samples: 167
+    - id: 3
+      name: low_light_sharp
+      input_dir: low_sharp
+      samples: 1666
+      train_samples: 1500
+      validation_samples: 166
+
+data:
+  crop_size: 128
+  batch_size: 1
+  workers: 0
+
+model:
+  img_channel: 3
+  width: 32
+  middle_blk_num_enc: 2
+  middle_blk_num_dec: 2
+  enc_blk_nums: [1, 2, 3]
+  dec_blk_nums: [3, 1, 1]
+  dilations: [1, 4, 9]
+  extra_depth_wise: true
+
+training:
+  epochs: 65
+  learning_rate: 0.0002
+  weight_decay: 0.0001
+  validation_frequency: 1
+  mixed_precision: false
+  # Used only by an explicit --sanity run until full training is requested.
+  checkpoint_dir: ./models/training_lolblur
+  resume_from: null

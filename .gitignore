@@ -1,0 +1,46 @@
+# Python and editor artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+venv*/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local settings, credentials, and logs
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+*.bak
+
+# Datasets and user-supplied example images (obtain/store separately)
+/data/datasets/
+/datasets/
+/custom_images/
+
+# Model weights and training state; keep checkpoints local or host separately
+*.pt
+*.pth
+*.ckpt
+
+# Generated outputs containing dataset imagery
+/images/results/
+/videos/results/
+/results/test_comparisons/
+/results/comparisons_low_blur/
+/results/comparisons_low_sharp/
+/results/custom_evaluation/restored/
+/results/custom_evaluation/comparisons/
+/results/noise_robustness/examples_sigma_*/
+/results/noise_robustness/qualitative_v2/
+/results/noise_robustness/qualitative_noise_comparison.png
+/results/research/error_maps/
+
+# Experiment tracking output
+/wandb/
+/outputs/

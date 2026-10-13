@@ -1,0 +1,11 @@
+Device: cuda:0
+Input image: low_blur_noise/0012/0010.png
+Image width: 1120
+Image height: 640
+Trainable parameters: 3321638
+Warm-up runs: 10
+Measured runs: 50
+Mean latency (ms): 804.781715994468
+Median latency (ms): 804.1993499791715
+Std latency (ms): 2.165515931144655
+Approx. throughput (images/s): 1.242572961246145

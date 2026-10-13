@@ -1,0 +1,18 @@
+# Python 3.10; PyTorch/TorchVision versions follow the project environment.
+einops==0.8.0
+lpips==0.1.4
+matplotlib==3.10.9
+numpy==2.0.0
+opencv-python==4.10.0.84
+pandas==2.2.2
+Pillow==10.3.0
+ptflops==0.7.3
+pyiqa==0.1.13
+pytorch-msssim==1.0.0
+PyYAML==6.0.1
+scikit-image==0.24.0
+streamlit==1.65.0
+torch==2.5.1
+torchvision==0.20.1
+tqdm==4.66.4
+wandb==0.17.2

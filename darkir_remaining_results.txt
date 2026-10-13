@@ -1,0 +1,14 @@
+DarkIR Restored Results
+
+Condition: low_blur
+Images: 1800
+PSNR: 23.792050 dB
+SSIM: 0.770613
+LPIPS: 0.313093
+
+Condition: low_sharp
+Images: 1800
+PSNR: 28.016862 dB
+SSIM: 0.941119
+LPIPS: 0.120857
+

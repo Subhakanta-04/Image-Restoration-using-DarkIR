@@ -1,0 +1,4 @@
+Condition,PSNR (dB),SSIM,LPIPS
+Low blur,23.79205,0.770613,0.313093
+Low blur + noise,23.121011,0.714039,0.383748
+Low-light sharp,28.016862,0.941119,0.120857

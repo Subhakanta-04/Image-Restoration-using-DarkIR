@@ -1,0 +1,5 @@
+Original Input Baseline
+Images: 1800
+PSNR: 10.734589 dB
+SSIM: 0.307881
+LPIPS: 0.444950

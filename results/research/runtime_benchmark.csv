@@ -1,0 +1,2 @@
+Device,Input image,Image width,Image height,Trainable parameters,Warm-up runs,Measured runs,Mean latency (ms),Median latency (ms),Std latency (ms),Approx. throughput (images/s)
+cuda:0,low_blur_noise/0012/0010.png,1120,640,3321638,10,50,804.781715994468,804.1993499791715,2.165515931144655,1.242572961246145
